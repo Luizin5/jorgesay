@@ -14,6 +14,8 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
   spec.files = ["lib/jorgesay.rb","lib/jorgesay/version.rb","lib/jorgesay/main.rb","bin/jorgesay"] 
+  spec.add_runtime_dependency "curses"
+
 
 
   #spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
